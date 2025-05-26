@@ -32,7 +32,7 @@ Protótipos iniciais nas áreas de segurança da informação e inteligência ar
 Todos os projetos aqui presentes são concebidos com o intuito de reforçar conhecimentos e explorar diferentes áreas da computação, através de projetos aplicados.
 
 Objetivo
-Este repositório é parte integrante do meu percurso como cadete e futura engenheira. Representa o meu compromisso com a aprendizagem contínua, o rigor técnico e a construção de soluções sólidas e funcionais. Ao partilhar o meu progresso de forma aberta, pretendo também contribuir com valor para a comunidade, fomentar partilhas e criar oportunidades de colaboração.
+Este repositório é parte integrante do meu percurso como futura engenheira. Representa o meu compromisso com a aprendizagem contínua, o rigor técnico e a construção de soluções sólidas e funcionais. Ao partilhar o meu progresso de forma aberta, pretendo também contribuir com valor para a comunidade, fomentar partilhas e criar oportunidades de colaboração.
 
 Considerações finais
 Todo o código presente neste repositório está em constante melhoria. Novas funcionalidades, refatorações e documentações serão adicionadas progressivamente, à medida que o projeto evolui. Comentários, sugestões e colaborações são bem-vindos.
