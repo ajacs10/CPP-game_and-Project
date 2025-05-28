@@ -17,7 +17,7 @@ Weapon::Weapon(std::string type)
 	this->type = type;
 }
 
-std::string& Weapon::getType() 
+const std::string& Weapon::getType() const
 {
 	return (type);
 }
@@ -27,7 +27,7 @@ void Weapon::setType(const std::string& Bazinga)
 	this->type = Bazinga;
 }
 
-Weapon::~Weapon() 
+Weapon::~Weapon()
 {
 
 }

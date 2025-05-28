@@ -14,6 +14,7 @@
 #define WEAPON_HPP
 
 #include <iostream>
+#include <string>
 
 class Weapon
 {
@@ -22,11 +23,11 @@ private:
 
 public:
     Weapon(std::string type);
-    std::string& getType();
-
-   void setType(const std::string& Bazinga);
+    
+    const std::string& getType() const;
+    void setType(const std::string& Bazinga);
+    
     ~Weapon();
 };
 
 #endif
-

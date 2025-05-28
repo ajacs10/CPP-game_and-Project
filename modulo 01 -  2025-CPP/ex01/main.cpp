@@ -12,42 +12,43 @@
 
 #include "Zombie.hpp"
 
+int main(int c, char **av)
+{
+    int	N;
+    int	wyconta;
+    if (c != 1) 
+    {
+        std::cerr << "Uso correto cadete!: " << av[0] << std::endl;
+        return (1);
+    }
 
-int main(int argc, char **argv)
-{ 
-	int	N;
-	int	wyconta;
-	std::string	name;
-	
-	
-	
-	std::cout << "Bazinga Horda Zombie"<< std::endl;
-	std::cout <<std::endl;
-	if (argc != 2)
-	{
-		std::cout << "use cadete: ./Zombie and nome" << std::endl;
-		return (1);
-	}
-	
-	N = 100;
-	name   = argv[1];
-	Zombie *BazingaHorda = zombieHorde(N, name);
+    N = 2002;
+    std::string name = "asobrinh";
 
-	if (!BazingaHorda)
-	{
-		std::cout << "Bazinga: não foi possível criar a horda de zumbis!" << std::endl;
-		return (1);
-	}
+    std::cout << "Bazinga Horda Zombie" << std::endl;
+    std::cout << std::endl;
 
-	wyconta = 0;
-	while (wyconta < N)
-	{
-		BazingaHorda[wyconta].announce();
-		std::cout <<std::endl;
-		wyconta++;
-	}
+    Zombie *BazingaHorda = zombieHorde(N, name);
 
-	delete[] BazingaHorda;
-	return 0;
+    if (!BazingaHorda && N > 0)
+    {
+        std::cerr << "Bazinga: nao foi possivel criar a horda de zumbis!" << std::endl;
+        return (1);
+    }
+    
+    if (N > 0) 
+    {
+        wyconta = 0;
+        while (wyconta < N)
+        {
+            BazingaHorda[wyconta].announce();
+            wyconta++;
+        }
+    } else {
+        std::cout << "Nenhum zumbi para anunciar." << std::endl;
+    }
+
+    delete[] BazingaHorda;
+    return 0;
 }
 
