@@ -39,7 +39,7 @@ FragTrap& FragTrap::operator=(const FragTrap& bazinga)
 	
 void FragTrap::highFivesGuys(void)
 {
-	std::cout << "FragTrap " << this->getName() << " grita: TOCA AQUI,CADETE ! " << std::endl;
+	std::cout << "FragTrap " << this->getName() << " TOCA AQUI👊,CADETE✋ (high-fives)! " << std::endl;
 
 }
 FragTrap::~FragTrap()
