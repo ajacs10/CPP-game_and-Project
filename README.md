@@ -1,6 +1,11 @@
 # CPP-game_and-Project
 CPP-game_and-Project é um repositório dedicado ao desenvolvimento de um jogo em C++ e à consolidação de outros projetos práticos relacionados com a minha formação académica em Engenharia Informática. O objetivo principal deste espaço é documentar a minha evolução técnica, organizar os meus estudos e aplicar conceitos fundamentais da programação em projetos reais.
 
+
+lista :
+
+Modulo 00,01,02,03,04
+
 Sobre o projeto principal
 O foco deste repositório é um jogo desenvolvido em C++ que tem como base a aplicação de conceitos como:
 
@@ -39,4 +44,5 @@ Todo o código presente neste repositório está em constante melhoria. Novas fu
 
 Com profissionalismo e dedicação,
 Ana Sobrinho (ajacs)
+
 #CPP-game_and-Project
